@@ -1,0 +1,107 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    display: block;
+    background-color: hsl(0, 0%, 12%);
+    width: 350px;
+    height: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    align-items: center;
+    align-content: space-between;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+img {
+    margin: auto;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.name {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.address {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    color: hsl(75, 94%, 57%);
+    margin-top: -10px;
+
+}
+
+.job {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    color: hsl(0, 0%, 100%);
+    margin-top: -5px;
+}
+
+a {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:    "slnt" 0;
+    width: 200px;
+    height: 20px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 6px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+a:hover {
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+
+}
+
+.links  {
+    margin-left: 70px;
+}
